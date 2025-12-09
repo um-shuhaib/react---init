@@ -11,7 +11,7 @@ function Student() {
     return (
     <div className='container p-5'>
         <table className='table table-bordered table-hover'>
-            <thead>
+            <thead className='text-success'>
             <th>ID</th>
             <th>NAME</th>
             <th>PLACE</th>

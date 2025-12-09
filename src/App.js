@@ -4,6 +4,7 @@ import Login from './Login';
 import {Routes,Route} from 'react-router-dom'
 import Home from './Home';
 import Student from './Student';
+import Counter from './Counter';
 
 function App(){
   return(
@@ -13,6 +14,7 @@ function App(){
         <Route path='log' element={<Login/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='stud' element={<Student/>}/>
+        <Route path='counter' element={<Counter/>}/>
       </Routes>
     </>
   );
